@@ -8,9 +8,15 @@ function App() {
       <div className="container mx-auto">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<TaskList />} />
-            <Route path="/create" element={<TaskForm />} />
-            <Route path="/edit/:id" element={<TaskForm />} />
+            <Route path="/ReactTasksReduxToolkit/" element={<TaskList />} />
+            <Route
+              path="/ReactTasksReduxToolkit/create"
+              element={<TaskForm />}
+            />
+            <Route
+              path="/ReactTasksReduxToolkit/edit/:id"
+              element={<TaskForm />}
+            />
           </Routes>
         </BrowserRouter>
       </div>
