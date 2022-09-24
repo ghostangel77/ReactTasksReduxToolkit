@@ -20,7 +20,7 @@ export function TaskCard({ task }) {
         Delete
       </button>
       <Link
-        to={`/edit/${task.id}`}
+        to={`/ReactTasksReduxToolkit/edit/${task.id}`}
         className="bg-indigo-400 hover:bg-indigo-300 px-2 py-1 rounded-md mt-4 m-2"
       >
         Edit

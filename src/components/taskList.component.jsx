@@ -19,7 +19,7 @@ export function TaskList() {
           Tasks: {tasks.length}
         </h1>
         <Link
-          to="/create"
+          to="/ReactTasksReduxToolkit/create"
           className="bg-emerald-600 hover:bg-emerald-500 text-white px-2 py-1 rounded-sm ml-10"
         >
           Create Task
