@@ -39,7 +39,7 @@ export function TaskForm() {
       dispatch(addTask(task));
     }
     setTask(emptyTask);
-    navigate("/");
+    navigate("/ReactTasksReduxToolkit/");
   };
 
   return (
