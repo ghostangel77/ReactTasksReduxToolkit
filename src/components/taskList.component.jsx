@@ -5,13 +5,6 @@ import { TaskCard } from "./taskCard.component";
 export function TaskList() {
   const tasks = useSelector((state) => state.tasks);
 
-  if (tasks.length === 0) {
-    return (
-      <h1 className="text-4xl font-bold text-center text-white p-10">
-        No Tasks
-      </h1>
-    );
-  }
   return (
     <div>
       <header>
